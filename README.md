@@ -34,3 +34,13 @@ Ok
 
 C:\Users\user0\Desktop\esp-idf-v4.3>
 ```
+
+
+open 2 target folder,   
+copy howto_debug to the target folder  
+ocd.bat, open openocd with configure file, ensure provide target .elf  
+gdb.bat, invoke gnu-debugger  
+
+
+![howto_debug/esp32c3_openocd_gdb_debug.JPG](howto_debug/esp32c3_openocd_gdb_debug.JPG)  
+
