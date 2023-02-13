@@ -4,11 +4,8 @@ setup and note
 uninstall all libusb driver if used TinyISP for AVR or similar, the driver has conflict against espressif USB/JTAG dirver (same libusb named)
 
 download https://dl.espressif.com/dl/idf-env/idf-env.exe
-```
-https://dl.espressif.com/dl/idf-env/idf-env.exe
-```
 
-save to 
+save to  %userprofile%\Desktop\esp-idf-v4.3
 ```
 %userprofile%\Desktop\esp-idf-v4.3
 ```
