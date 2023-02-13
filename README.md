@@ -5,7 +5,7 @@ uninstall all libusb driver if used TinyISP for AVR or similar, the driver has c
 
 download https://dl.espressif.com/dl/idf-env/idf-env.exe
 
-save to  %userprofile%\Desktop\esp-idf-v4.3
+save to  [%userprofile%\Desktop\esp-idf-v4.3](%userprofile%\Desktop\esp-idf-v4.3) 
 ```
 %userprofile%\Desktop\esp-idf-v4.3
 ```
