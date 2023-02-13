@@ -1,9 +1,11 @@
-# ESP32-C3-USBJATAG_debug
+# ESP32-C3-USB/JTAG_debug
 setup and note
 
-uninstall all libusb driver if used TinyISP for AVR or similar, the driver has conflict against espressif USB/JTAG dirver (same libusb named)
+### uninstall all libusb driver !!!
+if used USBTinyISP for AVR or similar, that was V-USB and libusb driver used, it has conflict against espressif USB/JTAG dirver (same libusb named)
 
 download https://dl.espressif.com/dl/idf-env/idf-env.exe
+this github, https://github.com/espressif/idf-env
 
 save to  
 ```
@@ -41,6 +43,9 @@ copy howto_debug to the target folder
 ocd.bat, open openocd with configure file, ensure provide target .elf  
 gdb.bat, invoke gnu-debugger  
 
-
+done,  
 ![howto_debug/esp32c3_openocd_gdb_debug.JPG](howto_debug/esp32c3_openocd_gdb_debug.JPG)  
 
+
+try Arduino IDE debugger, ok now
+![howto_debug/esp32c3_arduino_2.0.3_debug.JPG](howto_debug/esp32c3_arduino_2.0.3_debug.JPG)  
