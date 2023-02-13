@@ -1,13 +1,14 @@
 # ESP32-C3-USB/JTAG_debug
 setup and note
 
-### uninstall all libusb driver !!!
+### uninstall all libusb driver first !!!
 if used USBTinyISP for AVR or similar, that was V-USB and libusb driver used, it has conflict against espressif USB/JTAG dirver (same libusb named)
 
 download https://dl.espressif.com/dl/idf-env/idf-env.exe
 this github, https://github.com/espressif/idf-env
+this esp tutorial, https://docs.espressif.com/projects/esp-idf/en/v5.0/esp32c3/api-guides/jtag-debugging/configure-builtin-jtag.html#configure-usb-drivers
 
-save to  
+save idf-env.exe to, (mine is esp-idf-v4.3, perhaps the 5.0 or you have different installed version)  
 ```
 %userprofile%\Desktop\esp-idf-v4.3
 ```
