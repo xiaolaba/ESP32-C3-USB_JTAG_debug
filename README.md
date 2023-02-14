@@ -48,7 +48,7 @@ done,
 ![howto_debug/esp32c3_openocd_gdb_debug.JPG](howto_debug/esp32c3_openocd_gdb_debug.JPG)  
 
 
-try Arduino IDE debugger, ok now, no more libusb warning
+try Arduino IDE debugger, ok now, no more libusb warning but ceased somehow,  
 ![howto_debug/esp32c3_arduino_2.0.3_debug.JPG](howto_debug/esp32c3_arduino_2.0.3_debug.JPG)  
 
 
