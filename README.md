@@ -55,4 +55,4 @@ try Arduino IDE debugger, ok now, no more libusb warning
 ### similar finding, it is just not boot user application every time
 similar finding, https://github.com/espressif/arduino-esp32/pull/7295  
 still do not know why, 
-[howto_debug/esp32c3_arduino_2.0.3_debug_still_fail.JPG](howto_debug/esp32c3_arduino_2.0.3_debug_still_fail.JPG)
+![howto_debug/esp32c3_arduino_2.0.3_debug_still_fail.JPG](howto_debug/esp32c3_arduino_2.0.3_debug_still_fail.JPG)
